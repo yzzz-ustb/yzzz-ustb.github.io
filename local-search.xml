@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>conda日记01</title>
+    <link href="/2026/10/01/conda-diary-01/"/>
+    <url>/2026/10/01/conda-diary-01/</url>
+    
+    <content type="html"><![CDATA[<h3 id="一、看视频了解anaconda"><a href="#一、看视频了解anaconda" class="headerlink" title="一、看视频了解anaconda"></a>一、看视频了解anaconda</h3><p>Anaconda是面向Python的环境管理工具，自带大量科学计算、数据分析相关的软件包。它可以帮我们创建互相隔离的独立运行环境，不同项目可以安装各自版本的库，不会出现版本冲突，非常适合科研和代码复现。</p><p>Miniconda是Anaconda的精简版本。二者核心功能完全一样，都可以用conda命令创建、管理虚拟环境。区别在于：Anaconda安装包体积很大，预装了上百个常用包；Miniconda只保留最基础的conda核心程序，其余需要的包由使用者按需手动安装，占用磁盘空间更小，安装速度更快，现在多数人会优先选择Miniconda。</p><h3 id="二、配置环境实现恐龙过障碍物代码"><a href="#二、配置环境实现恐龙过障碍物代码" class="headerlink" title="二、配置环境实现恐龙过障碍物代码"></a>二、配置环境实现恐龙过障碍物代码</h3><p>这是第一次用conda配置相关环境，之前没接触过所以感觉到很陌生，让ai教我具体步骤来协助完成；最开始是想边理解边完成他给出的步骤，但是中途报错了很多次，chrome浏览器好像也有些问题，最后就是麻木的复制ai的步骤，改了一些config1.py和game.py里的几行代码，开了两个anaconda prompt一个用来运行另一个好像是用来弄本地服务器的；最后测试的数据比原作者的结果小了很多，ai分析是帧率不同的原因造成的。总而言之这次配环境途中更多是学会了怎么样跟ai描述来解决一个自己不熟悉的问题，对熟悉conda配置环境没有太多帮助，只是过程中和翻译cheat sheet过程中稍微熟悉了基础的一些命令。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习日记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>conda</tag>
+      
+      <tag>环境配置</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>conda Cheatsheet 中文版</title>
     <link href="/2026/10/01/conda-cheatsheet/"/>
     <url>/2026/10/01/conda-cheatsheet/</url>
