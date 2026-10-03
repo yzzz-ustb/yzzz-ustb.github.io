@@ -27,7 +27,7 @@
 <meta property="og:description" content="本文是 conda 官方速查表（Cheatsheet）的中文翻译，译自 conda 官方文档上的最新版本（对应 conda 25.3.1 的官方 PDF）。 阅读时把握一个原则：命令和参数保持原样，只把说明译成中文。命令里的占位符含义如下，实际使用时替换成自己的即可：  ENVNAME &#x2F; NEWENVNAME —— 环境名 PKGNAME —— 包名 CHANNELNAME —— 渠道">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-10-01T04:55:00.000Z">
-<meta property="article:modified_time" content="2026-10-01T05:39:18.654Z">
+<meta property="article:modified_time" content="2026-10-03T12:15:42.850Z">
 <meta property="article:author" content="依力扎提">
 <meta property="article:tag" content="conda">
 <meta property="article:tag" content="翻译">
@@ -327,7 +327,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.7k 字
+          2.8k 字
         
       </span>
     
@@ -338,7 +338,7 @@
         
         
         
-          23 分钟
+          24 分钟
         
       </span>
     
@@ -413,7 +413,7 @@
 </tr>
 <tr>
 <td><code>conda create --name ENVNAME</code></td>
-<td>创建一个新环境</td>
+<td>创建一个新环境（官方建议：环境名起得有描述性）</td>
 </tr>
 <tr>
 <td><code>conda activate ENVNAME</code></td>
@@ -475,7 +475,7 @@
 <td>添加渠道</td>
 </tr>
 </tbody></table>
-<h2 id="三、使用-conda-环境（Working-with-Conda-Environments"><a href="#三、使用-conda-环境（Working-with-Conda-Environments" class="headerlink" title="三、使用 conda 环境（Working with Conda Environments)"></a>三、使用 conda 环境（Working with Conda Environments)</h2><blockquote>
+<h2 id="三、使用-conda-环境（Working-with-Conda-Environments）"><a href="#三、使用-conda-环境（Working-with-Conda-Environments）" class="headerlink" title="三、使用 conda 环境（Working with Conda Environments）"></a>三、使用 conda 环境（Working with Conda Environments）</h2><blockquote>
 <p>会话开始时先列出所有环境；带星号（*）的是当前激活的环境。</p>
 </blockquote>
 <table>
@@ -636,7 +636,7 @@
 </tr>
 </tbody></table>
 <h2 id="译注"><a href="#译注" class="headerlink" title="译注"></a>译注</h2><ol>
-<li><strong>翻译来源与版本</strong>：译自 <a target="_blank" rel="noopener" href="https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html">conda 官方文档 Cheatsheet 页面</a>最新版，对应 conda 25.3.1 官方 PDF。</li>
+<li><strong>翻译来源与版本</strong>：译自 <a target="_blank" rel="noopener" href="https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html">conda 官方文档 Cheatsheet 页面</a>最新版（对应 conda 25.3.1 官方 PDF），2026-10-03 与官方网页当前内容逐条复核一致（43 条命令、7 个板块，无出入）。</li>
 <li><strong>新旧命令</strong>：<code>conda env export &gt; environment.yml</code> 是旧式导出命令，新的官方等价写法是 <code>conda export --format=environment-yaml</code>。本表中的新式命令 <code>conda export</code> 与 <code>conda rename</code> 在我本机的 conda 26.7.2 上均可用。</li>
 <li><strong>术语取舍</strong>：channel 统一译作「渠道」（也有教程译作「源」）；base environment 保留 base 不译，与命令行实际显示保持一致；revision 译作「修订版本」，作用类似游戏存档，可以把环境回滚到之前某个状态。</li>
 </ol>
